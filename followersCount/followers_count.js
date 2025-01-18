@@ -6,6 +6,12 @@ function increaseCount() {
   checkCountValue()
 }
 
+function resetCount() {
+    count=0; // Increment the count by 1
+    displayCount(); // Display the count
+    checkCountValue()
+}
+
 function displayCount() {
     document.getElementById('countDisplay').innerHTML=count; // Display the count in the HTML
 }
